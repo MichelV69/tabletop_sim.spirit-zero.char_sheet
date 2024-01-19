@@ -95,13 +95,24 @@ defaultButtonData = {
             size  = 400,
             state = false
         },
-        --hopes 6
+        --hopes 5
         {
             pos   = { 0.46, 0.1, 0.84 },
             size  = 400,
             state = false
         },
-
+        --fear shallow
+        {
+            pos   = { 0.46, 0.1, 1.02 },
+            size  = 400,
+            state = false
+        },
+        --fear deep
+        {
+            pos   = { 0.46, 0.1, 1.14 },
+            size  = 400,
+            state = false
+        },
     },    --End of checkboxes
     --Add counters that have a + and - button
     counter = {
@@ -205,6 +216,7 @@ defaultButtonData = {
             value     = "Jayne Q Publique",
             alignment = 2
         },
+        --------------
         {
             pos       = { 1.45, 0.1, -0.3 },
             rows      = 15,
@@ -215,7 +227,7 @@ defaultButtonData = {
             alignment = 5
         },
         {
-            pos       = { 1.45, 0.1, -0.3 },
+            pos       = { 1.45, 0.1, 0.75 },
             rows      = 8,
             width     = 6000,
             font_size = 350,
@@ -223,6 +235,7 @@ defaultButtonData = {
             value     = "",
             alignment = 5
         },
+        --------------
         {
             pos       = { 1.36, 0.1, 1.36 },
             rows      = 1,
@@ -232,11 +245,11 @@ defaultButtonData = {
             value     = "Your Contact Info Here",
             alignment = 2
         },
-
+        ---------------
         {
             pos       = { -0.25, 0.1, -0.37 },
             rows      = 1,
-            width     = 4000,
+            width     = 4200,
             font_size = 355,
             label     = "Primary Power",
             value     = "",
@@ -245,7 +258,7 @@ defaultButtonData = {
         {
             pos       = { -0.25, 0.1, -0.20 },
             rows      = 1,
-            width     = 4000,
+            width     = 4200,
             font_size = 355,
             label     = "Secondary Power",
             value     = "",
@@ -254,18 +267,83 @@ defaultButtonData = {
         {
             pos       = { -0.25, 0.1, -0.03 },
             rows      = 1,
-            width     = 4000,
+            width     = 4200,
             font_size = 355,
             label     = "XP Power Slot 1",
             value     = "",
             alignment = 2
         },
         {
-            pos       = { -0.25, 0.1, 0.14 },
+            pos       = { -0.25, 0.1, 0.13 },
             rows      = 1,
-            width     = 4000,
+            width     = 4200,
             font_size = 355,
-            label     = "XP Power Slot 1",
+            label     = "XP Power Slot 2",
+            value     = "",
+            alignment = 2
+        },
+        --------------
+        {
+            pos       = { -0.45, 0.1, 0.36 },
+            rows      = 1,
+            width     = 7000,
+            font_size = 355,
+            label     = "Hope #1",
+            value     = "",
+            alignment = 2
+        },
+        {
+            pos       = { -0.45, 0.1, 0.48 },
+            rows      = 1,
+            width     = 7000,
+            font_size = 355,
+            label     = "Hope #2",
+            value     = "",
+            alignment = 2
+        },
+        {
+            pos       = { -0.45, 0.1, 0.60 },
+            rows      = 1,
+            width     = 7000,
+            font_size = 355,
+            label     = "Hope #3",
+            value     = "",
+            alignment = 2
+        },
+        {
+            pos       = { -0.45, 0.1, 0.72 },
+            rows      = 1,
+            width     = 7000,
+            font_size = 355,
+            label     = "Hope #4",
+            value     = "",
+            alignment = 2
+        },
+        {
+            pos       = { -0.45, 0.1, 0.84 },
+            rows      = 1,
+            width     = 7000,
+            font_size = 355,
+            label     = "Hope #5",
+            value     = "",
+            alignment = 2
+        },
+        --------------
+        {
+            pos       = { -0.25, 0.1, 1.02 },
+            rows      = 1,
+            width     = 5000,
+            font_size = 355,
+            label     = "hard to focus",
+            value     = "",
+            alignment = 2
+        },
+        {
+            pos       = { -0.25, 0.1, 1.14 },
+            rows      = 1,
+            width     = 5000,
+            font_size = 355,
+            label     = "wrecked",
             value     = "",
             alignment = 2
         },
